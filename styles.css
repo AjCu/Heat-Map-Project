@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(240, 240, 240);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#title{
+display: flex;
+flex-direction:row;
+}
+#title h3 {
+    margin-top: 10%;
+}
+#description{
+    margin-left: 15%;
+}
+#chart {
+    background-color: rgb(240, 240, 240);
+}
+#tooltip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    height: 100px;
+    background-color: rgb(58, 54, 54);
+    color:blanchedalmond;
+    border-radius: 10%;
+    pointer-events: none;
+}
